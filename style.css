@@ -1,0 +1,54 @@
+.imp {
+    color: #0000ff;
+
+}
+
+.chaos {
+    color: #8b0000;
+
+}
+
+#lov {
+    color: #ffa500
+}
+
+#el {
+    color: #8b008b
+}
+
+#dru {
+
+    color: #008080
+}
+
+#nec {
+    color: rgb(0, 216, 0)
+}
+
+#te {
+    color: #ffffff
+}
+
+#tyr {
+    color: #800080
+}
+
+#gc {
+    color: hsl(300, 47%, 75%)
+}
+
+#ork {
+    color: rgb(6, 172, 0)
+}
+
+
+section p {
+
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+body > header :hover{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #8b0000;
+}
