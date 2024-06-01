@@ -1,54 +1,109 @@
 .imp {
     color: #0000ff;
-
+    columns: 3;
+    background-color: hsl(115, 100%, 57%);
 }
 
 .chaos {
     color: #8b0000;
-
+    background-color: #f5f5f5;
+columns: 2;
 }
 
+
 #lov {
-    color: #ffa500
+    color: #ffa500;
+    columns: 1;
 }
 
 #el {
-    color: #8b008b
+    color: #8b008b;
+    columns: 1;
 }
 
 #dru {
 
-    color: #008080
+    color: #008080;
 }
 
 #nec {
-    color: rgb(0, 216, 0)
+    color: #00d800;
 }
 
 #te {
-    color: #ffffff
+    color: rgb(138, 138, 138);
 }
 
 #tyr {
-    color: #800080
+    color: #800080;
 }
 
 #gc {
-    color: hsl(300, 47%, 75%)
+    color: hwb(300 63% 13%);
 }
 
 #ork {
-    color: rgb(6, 172, 0)
+    color: #06ac00;
 }
 
-
+/*
+here are new additions 5/31/24
+*/
 section p {
 
     font-size: 2em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
 
-body > header :hover{ 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-color: #8b0000;
+body {
+    height: 800;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #802121;
+}
+
+header {
+    color: rgb(10, 9, 9);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 5%;
+    background-image: url(images/banner.jpg) no=repeat;
+    background-color: silver ;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #313131;
+    border-radius: 8px;
+
+    border-style:ridge
+   
+}
+
+img {
+    max-width: 90%;
+    max-height: 90%;
+      width: 50em;
+      padding: 5%;
+      border-style:inherit;
+      border-color: hsl(54, 100%, 60%);
+
+    }
+footer {
+   
+    text-align: center;
+    padding: 10px;
+    background-color:silver;
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Xenos{
+    columns: 3;
+    background-color: #000000;
 }
