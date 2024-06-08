@@ -2,48 +2,74 @@
     color: #0000ff;
     columns: 3;
     background-color: hsl(115, 100%, 57%);
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    min-width: 200px;
+    min-width: 200px;
 }
+
 
 .chaos {
     color: #8b0000;
     background-color: #f5f5f5;
-columns: 2;
+    columns: 2;
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    min-width: 200px;
+    min-width: 200px;
 }
 
 
 #lov {
     color: #ffa500;
     columns: 1;
+    list-style: none;
+
 }
 
 #el {
     color: #8b008b;
     columns: 1;
+    list-style: none;
 }
 
 #dru {
 
     color: #008080;
+    list-style: none;
 }
 
 #nec {
     color: #00d800;
+    list-style: none;
 }
 
 #te {
     color: rgb(138, 138, 138);
+    list-style: none;
+
+
 }
 
 #tyr {
     color: #800080;
+    list-style: none;
 }
 
 #gc {
     color: hwb(300 63% 13%);
+    list-style: none;
 }
 
 #ork {
     color: #06ac00;
+    list-style: none;
 }
 
 /*
@@ -52,7 +78,7 @@ here are new additions 5/31/24
 section p {
 
     font-size: 2em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 body {
@@ -68,8 +94,9 @@ header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     padding: 5%;
+    margin: 50px;
     background-image: url(images/banner.jpg) no=repeat;
-    background-color: silver ;
+    background-color: silver;
 }
 
 section {
@@ -78,32 +105,58 @@ section {
     background-color: #313131;
     border-radius: 8px;
 
-    border-style:ridge
-   
+    border-style: ridge
 }
 
 img {
     max-width: 90%;
     max-height: 90%;
-      width: 50em;
-      padding: 5%;
-      border-style:inherit;
-      border-color: hsl(54, 100%, 60%);
+    width: 50em;
+    padding: 5%;
+    border-style: inherit;
+    border-color: hwb(54 20% 0%);
 
-    }
+
+}
+
 footer {
-   
+
     text-align: center;
     padding: 10px;
-    background-color:silver;
+    background-color: silver;
     color: white;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.Xenos{
+.Xenos {
     columns: 3;
+    background-color: #000000;
+}
+
+/*navbar*/
+nav {
+    list-style: none;
+}
+
+nav {
+align-items: center;
+background-color:hwb(54 20% 0%);
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    min-width: 200px;
+    min-width: 200px;
+    font-weight: bold;
+    border: 5px solid #802121;
+    padding: 2em;
+    font-size: 25px;
+}
+
+nav a:hover {
     background-color: #000000;
 }

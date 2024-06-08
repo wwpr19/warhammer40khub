@@ -1,0 +1,13 @@
+header{
+    color: rgb(10, 9, 9);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 5%;
+    background-image: url(images/banner.jpg) no=repeat;
+    background-color: silver ;
+    
+}
+
+main {
+    columns: 3;
+}
